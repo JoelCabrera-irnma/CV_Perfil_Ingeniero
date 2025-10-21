@@ -1,3 +1,3 @@
 export default function About() {
-  return <h2>Componente About</h2>;
+  return <h2>Joel David Cabrera Vivas</h2>;
 }

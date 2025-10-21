@@ -20,7 +20,7 @@
 .skill-title{
     font-family: 'game-squid', sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 10px;
 }
 section.conteiner-skills{
@@ -33,8 +33,8 @@ section.conteiner-skills{
 }
 
 div img.icon{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border: 1px solid red;
     padding: 8px;
 }

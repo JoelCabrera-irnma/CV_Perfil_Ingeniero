@@ -2,7 +2,7 @@ import './Grid.css'
 export default function Grid() {
 
     return (
-      <section>public/assets/excel.png
+      <section>
         <h2 className="skill-title">Skills Tecnologico</h2>
         <section className="conteiner-skills">
           <div>
@@ -118,6 +118,14 @@ export default function Grid() {
               className="icon"
               id="seventeen"
               src="/assets/rstudio_94807.png"
+              alt=""
+            /> 
+          </div>
+           <div>
+            <img
+              className="icon"
+              id="eighteen"
+              src="/assets/icons8-power-bi-2021-48.png"
               alt=""
             />
           </div>
