@@ -2,34 +2,34 @@ import './Grid.css'
 export default function Grid() {
 
     return (
-      <section>
+      <section>public/assets/excel.png
         <h2 className="skill-title">Skills Tecnologico</h2>
         <section className="conteiner-skills">
           <div>
-            <img className="icon" id="one" src="src/assets/qgis.webp" alt="" />
+            <img className="icon" id="one" src="/assets/qgis.webp" alt="" />
           </div>
           <div>
-            <img className="icon" id="two" src="src/assets/excel.png" alt="" />
+            <img className="icon" id="two" src="/assets/excel.png" alt="" />
           </div>
           <div>
             <img
               className="icon"
               id="three"
-              src="src/assets/mysql.png"
+              src="/assets/mysql.png"
               alt=""
             />
           </div>
           <div>
-            <img className="icon" id="four" src="src/assets/gee.png" alt="" />
+            <img className="icon" id="four" src="/assets/gee.png" alt="" />
           </div>
           <div>
-            <img className="icon" id="five" src="src/assets/react.svg" alt="" />
+            <img className="icon" id="five" src="/assets/react.svg" alt="" />
           </div>
           <div>
             <img
               className="icon"
               id="six"
-              src="src/assets/icons8-autocad-50.png"
+              src="/assets/icons8-autocad-50.png"
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ export default function Grid() {
             <img
               className="icon"
               id="seven"
-              src="src/assets/icons8-git-50.png"
+              src="/assets/icons8-git-50.png"
               alt=""
             />
           </div>
@@ -45,7 +45,7 @@ export default function Grid() {
             <img
               className="icon"
               id="eigth"
-              src="src/assets/icons8-github-50.png"
+              src="/assets/icons8-github-50.png"
               alt=""
             />
           </div>
@@ -53,7 +53,7 @@ export default function Grid() {
             <img
               className="icon"
               id="nine"
-              src="src/assets/icons8-linux-50.png"
+              src="/assets/icons8-linux-50.png"
               alt=""
             />
           </div>
@@ -61,7 +61,7 @@ export default function Grid() {
             <img
               className="icon"
               id="ten"
-              src="src/assets/icons8-ngp-50.png"
+              src="/assets/icons8-ngp-50.png"
               alt=""
             />
           </div>
@@ -69,7 +69,7 @@ export default function Grid() {
             <img
               className="icon"
               id="eleven"
-              src="src/assets/icons8-nodo-js-50.png"
+              src="/assets/icons8-nodo-js-50.png"
               alt=""
             />
           </div>
@@ -77,7 +77,7 @@ export default function Grid() {
             <img
               className="icon"
               id="twelf"
-              src="src/assets/icons8-python-50.png"
+              src="/assets/icons8-python-50.png"
               alt=""
             />
           </div>
@@ -85,7 +85,7 @@ export default function Grid() {
             <img
               className="icon"
               id="thirteen"
-              src="src/assets/icons8-rápidamente-50.png"
+              src="/assets/icons8-rápidamente-50.png"
               alt=""
             />
           </div>
@@ -93,7 +93,7 @@ export default function Grid() {
             <img
               className="icon"
               id="fourteen"
-              src="src/assets/icons8-terminal-50.png"
+              src="/assets/icons8-terminal-50.png"
               alt=""
             />
           </div>
@@ -101,7 +101,7 @@ export default function Grid() {
             <img
               className="icon"
               id="fiveteen"
-              src="src/assets/icons8-visual-studio-code-2019-50.png"
+              src="/assets/icons8-visual-studio-code-2019-50.png"
               alt=""
             />
           </div>
@@ -109,7 +109,7 @@ export default function Grid() {
             <img
               className="icon"
               id="sixteen"
-              src="src/assets/icons8-wordpress-50.png"
+              src="/assets/icons8-wordpress-50.png"
               alt=""
             />
           </div>
@@ -117,7 +117,7 @@ export default function Grid() {
             <img
               className="icon"
               id="seventeen"
-              src="src/assets/rstudio_94807.png"
+              src="/assets/rstudio_94807.png"
               alt=""
             />
           </div>
