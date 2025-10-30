@@ -6,10 +6,20 @@ export default function Grid() {
         <h2 className="skill-title">Skills Tecnologico</h2>
         <section className="conteiner-skills">
           <div>
-            <img className="icon" id="one" src="/assets/qgis.webp" alt="" />
+            <img 
+              className="icon" 
+              id="one" 
+              src="/assets/qgis.webp" 
+              alt="" 
+            />
           </div>
           <div>
-            <img className="icon" id="two" src="/assets/excel.png" alt="" />
+            <img 
+              className="icon" 
+              id="two" 
+              src="/assets/excel.png" 
+              alt="" 
+            />
           </div>
           <div>
             <img
@@ -20,10 +30,20 @@ export default function Grid() {
             />
           </div>
           <div>
-            <img className="icon" id="four" src="/assets/gee.png" alt="" />
+            <img 
+              className="icon" 
+              id="four" 
+              src="/assets/gee.png" 
+              alt="" 
+            />
           </div>
           <div>
-            <img className="icon" id="five" src="/assets/react.svg" alt="" />
+            <img 
+              className="icon" 
+              id="five" 
+              src="/assets/react.svg" 
+              alt="" 
+            />
           </div>
           <div>
             <img
