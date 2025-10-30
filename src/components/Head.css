@@ -43,7 +43,7 @@
 ---------------------------------------------- */
 
 .img-hero.animated {
-    animation: rotate-center 1.5s;
+    animation: rotate-center 1.2s;
 }
 
 @keyframes rotate-center {

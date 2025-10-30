@@ -39,7 +39,6 @@ div img.icon{
     padding: 8px;
 }
 
-/* Animación de sombreado */
 @keyframes shadowFade {
   0% {
     filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0));
@@ -53,33 +52,11 @@ div img.icon{
   }
 }
 
-/* Estado inicial de los iconos */
 .icon {
   opacity: 0;
   animation: shadowFade 0.6s ease-out forwards;
+  /* El delay se aplica inline desde React */
 }
-
-/* Delays consecutivos para cada icono (de derecha a izquierda) */
-#one { animation-delay: 0.9s; }
-#two { animation-delay: 0.8s; }
-#three { animation-delay: 0.7s; }
-#four { animation-delay: 0.6s; }
-#five { animation-delay: 0.5s; }
-#six { animation-delay: 0.4s; }
-#seven { animation-delay: 0.3s; }
-#eigth { animation-delay: 0.2s; }
-#nine { animation-delay: 0.1s; }
-#ten { animation-delay: 0s; }
-#eleven { animation-delay: 0.1s; }
-#twelf { animation-delay: 0.2s; }
-#thirteen { animation-delay: 0.3s; }
-#fourteen { animation-delay: 0.4s; }
-#fiveteen { animation-delay: 0.5s; }
-#sixteen { animation-delay: 0.6s; }
-#seventeen { animation-delay: 0.7s; }
-#eighteen { animation-delay: 0.8s; }
-
-
 
 /* CSS para Button.jsx */
 .background {
