@@ -18,7 +18,7 @@ export default function Head() {
         Especialista en Desarrollo Web y Sistemas de Información Geográfica
       </p>
       <a
-        href="https://www.linkedin.com/in/joel-david-cabrera-vivas-8b0414317"
+        href="https://www.linkedin.com/in/joel-david-cabrera-vivas-4b857b283"
         target="_blank"
         rel="noopener noreferrer"
       >
