@@ -33,10 +33,15 @@ section.conteiner-skills{
 }
 
 div img.icon{
+    opacity: 0;
     height: 50px;
     width: 50px;
     border: 1px solid red;
     padding: 8px;
+}
+.icon.animated {
+  animation: shadowFade 0.6s ease-out forwards;
+  /* El delay se aplica inline desde React */
 }
 
 @keyframes shadowFade {
@@ -52,11 +57,7 @@ div img.icon{
   }
 }
 
-.icon {
-  opacity: 0;
-  animation: shadowFade 0.6s ease-out forwards;
-  /* El delay se aplica inline desde React */
-}
+
 
 /* CSS para Button.jsx */
 .background {

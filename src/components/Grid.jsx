@@ -1,7 +1,15 @@
 import './Grid.css'
-
+import { useEffect, useState } from 'react';
 
 export default function Grid() {
+  const [isAnimated, setIsAnimated] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsAnimated(true);
+    }, 900);
+    return () => clearTimeout(timer);
+  }, []);
+
   const skills = [
     { src: "/assets/qgis.webp", alt: "QGIS" },
     { src: "/assets/excel.png", alt: "Excel" },
@@ -30,7 +38,7 @@ export default function Grid() {
         {skills.map((skill, index) => (
           <div key={index}>
             <img 
-              className="icon" 
+              className={`icon ${isAnimated ? 'animated' : ''}`}
               src={skill.src} 
               alt={skill.alt}
               style={{ 

@@ -16,7 +16,7 @@
 
 /* Sección principal */
 .projects-section {
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -48,10 +48,16 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   animation: fadeIn 0.8s ease-out 0.2s both;
+  align-items: stretch;
+  margin: 0 200px;
 }
 
 /* Tarjetas de proyecto */
 .project-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* Importante para que funcione correctamente con flex y grid */
+  overflow: hidden; /* Evita desbordamientos visuales */
   background: var(--card-background2);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
