@@ -15,7 +15,7 @@ export default function Head() {
     <>
       <h1 className="titulo">Ingeniero en Rec. Naturales y Medio Ambiente</h1>
       <p className="descripcion">
-        Especialista en Desarrollo Web y Sistemas de Información Geográfica
+        Especialista en Desarrollo Web y Sistemas de Informacion Geografica
       </p>
       <a
         href="https://www.linkedin.com/in/joel-david-cabrera-vivas-4b857b283"

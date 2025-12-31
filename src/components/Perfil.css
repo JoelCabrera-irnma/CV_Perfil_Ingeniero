@@ -1,0 +1,19 @@
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.perfil h2{
+    font-size: 1.8rem;
+    color: black;
+    margin: 0
+}
+
+.perfil p{
+    font-size: 1.3rem;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+}

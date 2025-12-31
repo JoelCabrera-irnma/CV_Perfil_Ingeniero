@@ -6,7 +6,7 @@ export default function Grid() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsAnimated(true);
-    }, 900);
+    }, 1200);
     return () => clearTimeout(timer);
   }, []);
 

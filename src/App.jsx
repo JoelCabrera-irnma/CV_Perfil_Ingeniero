@@ -3,6 +3,7 @@ import Grid from './components/Grid.jsx'
 import  Head  from './components/Head.jsx'
 import Button from './components/Button.jsx'
 import Certificados from './components/Certificados.jsx'
+import Perfil from './components/Perfil.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Grid/>
       <Button/>
       <Certificados/>
+      <Perfil/>
     </>
   )
 }
