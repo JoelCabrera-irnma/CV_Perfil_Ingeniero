@@ -1,18 +1,18 @@
-import './Projects.css';
+import './Projects.css'; 
 
 const Projects = () => {
   const projects = [
         { 
             id: 1, 
-            title: 'Admin Dashboard', 
-            description: 'Desarrollo de un tablero con mis proyectos de aprendizaje',
-            link: 'https://dashboard-ten-opal.vercel.app/'
+            title: 'Analisis de Disturbios Forestales', 
+            description: 'Proyecto de tesis realizado con R Studio y QGIS para la deteccion de disturbios y su represantacion visual',
+            link: 'https://github.com/JoelCabrera-irnma/analisis_disturbios_forestales'
         },
         { 
-            id: 2, 
-            title: 'Memory Card', 
-            description: 'Aplicamos los Hooks de React en un juego de memoria',
-            link: 'https://memory-card-nine-eta.vercel.app/'
+            id: 2,
+            title: 'Mapa Argentina', 
+            description: 'El mapa de la Argentina con sus respectiva informacion de flora y fauna en imagenes',
+            link: 'https://joelcabrera-irnma.github.io/Map-interactive-argentina-flora-fauna/' 
         },
         { 
             id: 3, 
@@ -22,9 +22,9 @@ const Projects = () => {
         },
         { 
             id: 4, 
-            title: 'Map Argentina', 
-            description: 'El mapa de la Argentina con sus respectiva informacion de flora y fauna',
-            link: 'https://joelcabrera-irnma.github.io/Map-interactive-argentina-flora-fauna/'
+            title: 'Memory Card', 
+            description: 'Aplicamos los Hooks de React en un juego de memoria',
+            link: 'https://memory-card-nine-eta.vercel.app/'
         },
     ];
 
@@ -39,6 +39,10 @@ const Projects = () => {
                     >
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
+                        <div>
+                            <img src="public/assets/icons8-github-50.png" alt="github" />
+                            <img src="public/assets/icons8-internet-50.png" alt="web" />
+                        </div>
                     </a>
                 ))}
             </div>
