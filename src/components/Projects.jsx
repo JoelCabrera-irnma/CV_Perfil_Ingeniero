@@ -40,8 +40,8 @@ const Projects = () => {
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
                         <div>
-                            <img src="/public/assets/icons8-github-50.png" alt="github" />
-                            <img src="/public/assets/icons8-internet-50.png" alt="web" />
+                            <img src="/assets/icons8-github-50.png" alt="github" />
+                            <img src="/assets/icons8-internet-50.png" alt="web" />
                         </div>
                     </a>
                 ))}
